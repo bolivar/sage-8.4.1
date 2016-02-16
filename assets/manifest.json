@@ -12,21 +12,6 @@
       ],
       "main": true
     },
-    "customizer.js": {
-      "files": [
-        "scripts/customizer.js"
-      ]
-    },
-    "classie.js": {
-      "files": [
-        "scripts/classie.js"
-      ]
-    },
-    "uisearch.js": {
-      "files": [
-        "scripts/uisearch.js"
-      ]
-    },
     "jquery.js": {
       "bower": ["jquery"]
     }

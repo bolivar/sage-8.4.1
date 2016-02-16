@@ -1,0 +1,99 @@
+// need to figure out where to add this line
+a {
+    transition: color 0.2s ease, background 0.6s ease, border-color 0.2s ease;
+}
+
+.fa-2x {
+  font-size: 1.5em;
+}
+
+.row {
+  margin-top: 50px;
+}
+.social-media {
+  ul {
+
+  }
+  li {
+    list-style: none;
+    display: inline-block;
+    padding: 0  5px;
+  }
+    :first-child {
+      padding-left: 0;
+    }
+  a {
+    color: $brand-black;
+  }
+    :hover{
+      text-decoration: none;
+      color: $brand-primary;
+    }
+}
+
+.logo {
+}
+
+
+
+.nav-primary {
+  margin-top: 55px;
+  padding: 10px 0;
+  border-top: 1px solid $border;
+  border-bottom: 1px solid $border;
+  ul {
+    text-align: center;
+  }
+    li {
+      display: inline-block;
+    }
+      a {
+        text-transform: uppercase;
+        color: $brand-black;
+        padding: 10px 5px !important;
+        margin: 0 15px;
+        border-bottom: 1px solid transparent;
+        &:hover,&:active{
+          color: $brand-primary;
+          background: white !important;
+          border-bottom: 1px solid $brand-primary;
+        }
+      }
+}
+
+
+@media (max-width: $breakpoint-tablet) {
+  .nav-primary {
+    display: none;
+  }
+  header .desktop{
+    display: none;
+  }
+}
+
+.fixed {
+    top: -50px;
+    position: fixed;
+    width: 100%;
+    z-index: 5000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding-top: 0;
+    padding-bottom: 0;
+    transition: top 0.3s ease;
+    background-color: #fff;
+}
+
+.mobile {
+  margin:0px;
+  padding: 40px 0;
+  background: #fff;
+  border-bottom: 1px solid $btn-default-border;
+  .brand img{
+    width: 100%;
+  }
+}
+
+// MMenu flicker onload fixed
+#mobile-menu:not( .mm-menu ) {
+   display: none;
+}

@@ -133,8 +133,3 @@
 	window.UISearch = UISearch;
 
 } )( window );
-
-// A $( document ).ready() block.
-$( document ).ready(function() {
-    console.log( "ready!" );
-});

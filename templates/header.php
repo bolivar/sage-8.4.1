@@ -4,7 +4,7 @@
       <!-- social media icons -->
       <div class="col-md-4 social-media">
         <ul>
-          <li><a class="fa fa-facebook-official fa-2x" href="#"></a></li>
+          <li><a class="fa fa-facebook fa-2x" href="#"></a></li>
           <li><a class="fa fa-twitter fa-2x" href="#"></a></li>
           <li><a class="fa fa-instagram fa-2x" href="#"></a></li>
           <li><a class="fa fa-pinterest fa-2x" href="#"></a></li>
@@ -20,12 +20,12 @@
       <div class="col-md-4 subscribe">
         <!-- <a class="btn btn-default pull-right" href="#" role="button">Subscribe</a> -->
         <!-- <span href="#" id="search" class="fa fa-search fa-2x pull-right"></span> -->
-        <div id="sb-search" class="sb-search">
-        	<form>
-        		<input class="sb-search-input" placeholder="Enter your search term..." type="search" value="" name="search" id="search">
-        		<input class="sb-search-submit" type="submit" value="">
-        		<span class="sb-icon-search"></span>
-        	</form>
+        <div class="search_container">
+           <form class="searchbox" method="get" action="<?php bloginfo('home'); ?>/" id="searchform">
+             <input type="text"  placeholder="Search......" value="<?php echo wp_specialchars($s, 1); ?>" name="s" class="searchbox-input" id="s" required>
+             <input type="submit" class="searchbox-submit" value="GO">
+             <span class="searchbox-icon fa fa-search"></span>
+           </form>
         </div>
       </div>
     </div>

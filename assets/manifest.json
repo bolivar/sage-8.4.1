@@ -12,12 +12,6 @@
       ],
       "main": true
     },
-    "classie.js": {
-    "files": ["scripts/classie.js"]
-      },
-      "uisearch.js": {
-      "files": ["scripts/uisearch.js"]
-    },
     "jquery.js": {
       "bower": ["jquery"]
     }

@@ -70,6 +70,12 @@
           }
           }
 
+          //fixed menu js
+          $(document).ready(function() {
+            $('.banner').scrollToFixed();
+            $('.banner').trigger('resize'); 
+          });
+
 
       },
       finalize: function() {

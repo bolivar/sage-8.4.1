@@ -102,7 +102,7 @@ function assets() {
   }
 
   wp_enqueue_script('sage/js', Assets\asset_path('scripts/main.js'), ['jquery'], null, true);
-  // wp_enqueue_script('sage/classie_js', Assets\asset_path('scripts/classie.js'), ['jquery'], null, true);
+  wp_enqueue_script('sage/ScrollToFixed_js', Assets\asset_path('scripts/jquery-scrolltofixed-min.js'), ['jquery'], null, true);
   // wp_enqueue_script('sage/uisearch_js', Assets\asset_path('scripts/uisearch.js'), ['jquery'], null, true);
 }
 add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100);

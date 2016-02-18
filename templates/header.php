@@ -43,8 +43,12 @@
 
   <div class="col-xs-6"><a class="brand" href="<?= esc_url(home_url('/')); ?>"><img src="<?php bloginfo('template_url');?>/assets/images/blog_logo.png" alt="exquisitely edgy" /></a></div>
 
-  <div class="col-xs-3">
-  <span class="fa fa-search fa-2x pull-right"></span>
+  <div class="search_container clo-xs-3">
+     <form class="searchbox" method="get" action="<?php bloginfo('home'); ?>/" id="searchform">
+       <input type="text"  placeholder="Search......" value="<?php echo wp_specialchars($s, 1); ?>" name="s" class="searchbox-input" id="s" required>
+       <input type="submit" class="searchbox-submit" value="GO">
+       <span class="searchbox-icon fa fa-search"></span>
+     </form>
   </div>
 </div>
 

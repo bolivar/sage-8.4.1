@@ -3,6 +3,10 @@ a {
     transition: color 0.2s ease, background 0.6s ease, border-color 0.2s ease;
 }
 
+.banner {
+  background: white;
+}
+
 .fa-2x {
   font-size: 1.5em;
 }
@@ -32,12 +36,15 @@ a {
 }
 
 .logo {
+  img{
+    width: 100%;
+  }
 }
 
 
 
 .nav-primary {
-  margin-top: 55px;
+  margin-top: 30px;
   padding: 10px 0;
   border-top: 1px solid $border;
   border-bottom: 1px solid $border;
@@ -71,26 +78,11 @@ a {
   }
 }
 
-.fixed {
-    top: -50px;
-    position: fixed;
-    width: 100%;
-    z-index: 5000;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    padding-top: 0;
-    padding-bottom: 0;
-    transition: top 0.3s ease;
-    background-color: #fff;
-}
-
 .mobile {
   margin:0px;
-  padding: 40px 0;
+  padding: 40px 0 20px 0;
   background: #fff;
   border-bottom: 1px solid $btn-default-border;
-  .brand img{
-    width: 100%;
-  }
 }
 
 // MMenu flicker onload fixed

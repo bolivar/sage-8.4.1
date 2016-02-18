@@ -14,6 +14,9 @@
     },
     "jquery.js": {
       "bower": ["jquery"]
+    },
+    "jquery-scrolltofixed-min.js": {
+      "files": ["scripts/jquery-scrolltofixed-min.js"]
     }
   },
   "config": {

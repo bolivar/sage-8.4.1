@@ -73,7 +73,41 @@
           //fixed menu js
           $(document).ready(function() {
             $('.banner').scrollToFixed();
-            $('.banner').trigger('resize'); 
+            // $('.banner').scrollToFixed({
+            //     preFixed: function() { $(this).find('a').css('background', 'red'); },
+            //     postFixed: function() { $(this).find('a').css('background', ''); }
+            // });
+          });
+
+
+          // slick carousel js
+          $('.center').slick({
+            centerMode: true,
+            centerPadding: '60px',
+            slidesToShow: 3,
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 8000,
+            responsive: [
+              {
+                breakpoint: 768,
+                settings: {
+                  arrows: false,
+                  centerMode: true,
+                  centerPadding: '40px',
+                  slidesToShow: 3
+                }
+              },
+              {
+                breakpoint: 480,
+                settings: {
+                  arrows: false,
+                  centerMode: true,
+                  centerPadding: '40px',
+                  slidesToShow: 1
+                }
+              }
+            ]
           });
 
 

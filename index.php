@@ -1,5 +1,5 @@
 <?php get_template_part('templates/page', 'header'); ?>
-
+    
 <section class="row">
   <?php while (have_posts()) : the_post(); ?>
 

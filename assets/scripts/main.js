@@ -73,21 +73,17 @@
           //fixed menu js
           $(document).ready(function() {
             $('.banner').scrollToFixed();
-            // $('.banner').scrollToFixed({
-            //     preFixed: function() { $(this).find('a').css('background', 'red'); },
-            //     postFixed: function() { $(this).find('a').css('background', ''); }
-            // });
           });
 
 
           // slick carousel js
           $('.center').slick({
             centerMode: true,
-            centerPadding: '60px',
+            centerPadding: '80px',
             slidesToShow: 3,
-            dots: true,
             autoplay: true,
-            autoplaySpeed: 8000,
+            autoplaySpeed: 2000,
+            arrows: true,
             responsive: [
               {
                 breakpoint: 768,

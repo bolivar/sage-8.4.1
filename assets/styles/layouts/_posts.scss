@@ -1,6 +1,8 @@
 .article-container {
 
   img {
+    max-width: 100%;
+    height: auto;
     &:hover {
       transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
       opacity: 0.8;

@@ -81,7 +81,7 @@
             centerMode: true,
             centerPadding: '80px',
             slidesToShow: 3,
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 2000,
             arrows: true,
             responsive: [

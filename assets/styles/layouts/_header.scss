@@ -4,8 +4,18 @@ a {
 }
 
 .banner {
-  background: white;
+  background: #fff;
+  height: 187px;
+  position: fixed;
+  top: 0;
+  transition: top .53s ease-out;
+  width: 100%;
 }
+
+.nav-up {
+    top: -187px;
+}
+
 
 .fa-2x {
   font-size: 1.5em;

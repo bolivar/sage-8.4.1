@@ -22,7 +22,59 @@
         }
       a {
         color:white;
+        &:hover{
+          text-decoration: none;
+        }
       }
     }
   }
+}
+
+.slick-arrow {
+  position: absolute;
+  z-index: 10;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 0;
+  outline: none;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.25s linear;
+
+  &:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    background-color: #fff;
+    mask-image: url(http://cdn.flaticon.com/svg/22/22086.svg);
+    display: block;
+    opacity: .5;
+    transition: all .5s ease-out;
+  }
+
+
+  &.slick-next {
+    left: auto;
+    right: 10px;
+
+    &:before {
+      transform: rotate(180deg);
+    }
+
+  }
+
+  &:hover:before {
+    opacity: 1;
+    background-color: $brand-primary;
+  }
+  &:hover {
+    background: #fff;
+  }
+
 }

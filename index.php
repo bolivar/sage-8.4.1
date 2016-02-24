@@ -44,10 +44,21 @@
         </div>
 
         <div class="box share">
-          <a href="#" class="glyphicon glyphicon-share-alt"></a>
+          <!-- <a href="#" class="glyphicon glyphicon-share-alt"></a> -->
+            <div class="more-button glyphicon glyphicon-share-alt">
+              <div class="share-container">
+                <a href="#" class="fa fa-facebook fa-2x"></a>
+                <a href="#" class="fa fa-twitter fa-2x"></a>
+                <a href="#"  class="fa fa-instagram fa-2x"></a>
+                <a href="#"  class="fa fa-pinterest fa-2x"></a>
+              </div>
+            </div>
         </div>
 
-        <span><?php comments_number( $zero, $one, $more ); ?> </span>
+        <div class="more">
+          <button type="submit" class="btn btn-default"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">View More</a></button>
+        </div>
+
       </div>
 
 

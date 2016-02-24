@@ -1,5 +1,17 @@
-.article-container {
+.wrap{
+  .content{
+    margin-top: 0px;
+  }
+}
 
+.main {
+  .row{
+    margin-top: 0px;
+  }
+}
+
+.article-container {
+  margin-bottom: 40px;
   img {
     max-width: 100%;
     height: auto;
@@ -47,20 +59,20 @@
   line-height: 40px;
   cursor: pointer;
   float: left;
+    &:hover{
+      text-decoration: none;
+        :before{
+        opacity: 1;
+      }
+    }
     &:nth-child(2){
       margin-left: 10px;
     }
-  .fa-comment-o{
+  .glyphicon{
 
     &:before{
       color:#000;
       opacity: 0.6;
-    }
-    &:hover{
-      text-decoration: none;
-      &:before{
-        opacity: 1;
-      }
     }
   }
   .fa-share{

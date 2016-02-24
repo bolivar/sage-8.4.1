@@ -1,5 +1,6 @@
-<?php get_template_part('templates/page', 'header'); ?>
-    
+<!-- i dont need this for now -->
+<!-- <?php get_template_part('templates/page', 'header'); ?> -->
+
 <section class="row">
   <?php while (have_posts()) : the_post(); ?>
 
@@ -36,38 +37,20 @@
       </section>
 
       <!-- display the comments and social media -->
-      <footer class="entry-share">
+      <div class="entry-share">
         <div class="comment-counter box">
-          <a href="<?php comments_link(); ?>" class="fa fa-comment-o fa-2x">
+          <a href="<?php comments_link(); ?>" class="glyphicon glyphicon-comment">
           </a>
         </div>
 
         <div class="box share">
-          <a href="#" class="fa fa-share fa-2x"></a>
+          <a href="#" class="glyphicon glyphicon-share-alt"></a>
         </div>
 
         <span><?php comments_number( $zero, $one, $more ); ?> </span>
-      </footer>
+      </div>
 
 
     </div>
   <?php endwhile; ?>
 </section>
-
-
-
-
-
-<!-- default code -->
-<?php if (!have_posts()) : ?>
-  <div class="alert alert-warning">
-    <?php _e('Sorry, no results were found.', 'sage'); ?>
-  </div>
-  <?php get_search_form(); ?>
-<?php endif; ?>
-
-<?php while (have_posts()) : the_post(); ?>
-  <?php get_template_part('templates/content', get_post_type() != 'post' ? get_post_type() : get_post_format()); ?>
-<?php endwhile; ?>
-
-<?php the_posts_navigation(); ?>

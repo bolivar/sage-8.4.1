@@ -15,10 +15,13 @@
       bottom: 0;
       position: absolute;
       background: rgba(0, 0, 0, 0.4);
-      transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+      height: 120px;
+      // transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+      transition: height ease 1s;
         &:hover{
           background: $brand-primary;
-          height: auto;
+          height: 160px;
+          transition: height ease 1s;
         }
       a {
         color:white;

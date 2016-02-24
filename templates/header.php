@@ -24,7 +24,7 @@
            <form class="searchbox" method="get" action="<?php bloginfo('home'); ?>/" id="searchform">
              <input type="text"  placeholder="Search......" value="<?php echo wp_specialchars($s, 1); ?>" name="s" class="searchbox-input" id="s" required>
              <input type="submit" class="searchbox-submit" value="GO">
-             <span class="searchbox-icon fa fa-search"></span>
+             <span class="searchbox-icon glyphicon glyphicon-search"></span>
            </form>
         </div>
       </div>

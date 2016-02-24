@@ -9,7 +9,8 @@
         <h1 class="entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
       </div>
       <div class="link">
-        <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">read more <span class="fa fa-arrow-right"></span></a>
+        <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">read more <span class="
+glyphicon glyphicon-arrow-right"></span></a>
       </div>
     </div>
   </div>

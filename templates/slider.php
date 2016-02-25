@@ -1,5 +1,5 @@
 <article class="center">
-<?php while (have_posts()) : the_post(); ?>
+<?php query_posts('showposts=5'); while (have_posts()) : the_post(); ?>
   <div><?php the_post_thumbnail( 'full' ); ?>
     <div class="featured-title">
       <aside class="">

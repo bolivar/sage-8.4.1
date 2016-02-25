@@ -10,7 +10,9 @@
     "bootstrap-sass": "3.3.6",
     "font-awesome": "fontawesome#^4.5.0",
     "jQuery.mmenu": "https://github.com/FrDH/jQuery.mmenu.git#^5.6.1",
-    "slick-carousel": "^1.5.9"
+    "slick-carousel": "^1.5.9",
+    "ScrollToFixed": "https://github.com/bigspotteddog/ScrollToFixed.git#^1.0.6",
+    "scrollup": "https://github.com/markgoodyear/scrollup.git#^2.4.1"
   },
   "overrides": {
     "bootstrap-sass": {

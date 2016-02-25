@@ -1,0 +1,54 @@
+.sidebar {
+  .top{
+    border: 1px solid $border;
+    clear: both;
+    float: left;
+    padding: 20px 0 0 20px;
+  }
+  section {
+    h2,h3 {
+      text-align: center;
+      background: #000;
+      color: #fff;
+      padding: 10px;
+      clear: both;
+    }
+  }
+  ul {
+    list-style: none;
+    li {
+      // border-bottom: 1px solid $border;
+      padding-bottom: 10px;
+    }
+  }
+  .post{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  figure {
+    float: left;
+    img {
+      margin-right: 10px;
+      width: 100px;
+    }
+  }
+
+.shop-now {
+  text-align: center;
+  .btn {
+    border-radius: 0;
+    border: 1px solid transparent;
+    background: #000;
+    color: #fff;
+    -webkit-transition: .25s;
+    -o-transition: .25s;
+    transition: .25s;
+    &:hover {
+      background: #39CCCC;
+    }
+  }
+}
+
+
+}

@@ -117,7 +117,7 @@
             centerMode: true,
             centerPadding: '80px',
             slidesToShow: 3,
-            autoplay: false,
+            autoplay: true,
             autoplaySpeed: 3000,
             arrows: true,
             responsive: [
@@ -140,6 +140,31 @@
                 }
               }
             ]
+          });
+
+          // shop now slider on the article page
+          $('.shop-now').slick({
+            dots: false,
+            autoplay: true,
+            autoplaySpeed: 5000
+          });
+
+          //keep the share sideback on a fixed position
+          $('.share-side').scrollToFixed({
+            marginTop: 10
+          });
+
+          $(function () {
+            $.scrollUp({
+              scrollName: 'up', // Element ID
+              topDistance: '300', // Distance from top before showing element (px)
+              topSpeed: 300, // Speed back to top (ms)
+              animation: 'fade', // Fade, slide, none
+              animationInSpeed: 200, // Animation in speed (ms)
+              animationOutSpeed: 200, // Animation out speed (ms)
+              scrollText: 'Scroll to top', // Text for element
+              activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+            });
           });
 
 

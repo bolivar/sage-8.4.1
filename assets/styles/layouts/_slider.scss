@@ -62,7 +62,7 @@
   outline: none;
   width: 40px;
   height: 40px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid #fff;
   transition: all 0.25s linear;
 
   &:before {
@@ -73,7 +73,7 @@
     background-color: #fff;
     mask-image: url(http://cdn.flaticon.com/svg/22/22086.svg);
     display: block;
-    opacity: .5;
+    // opacity: .5;
     transition: all .5s ease-out;
   }
 

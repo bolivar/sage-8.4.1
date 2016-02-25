@@ -13,7 +13,7 @@
 
       <!-- logo -->
       <div class="col-md-4 logo">
-        <a class="brand" href="<?= esc_url(home_url('/')); ?>"><img src="<?php bloginfo('template_url');?>/assets/images/blog_logo.png" alt="exquisitely edgy" /></a>
+        <a class="brand" href="<?= esc_url(home_url('/')); ?>"><img src="http://www.shoplimitededitions.com/v/vspfiles/assets/images/exquisitely_edgy_logo.svg" alt="exquisitely edgy" /></a>
       </div>
 
       <!-- search bar -->

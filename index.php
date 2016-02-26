@@ -1,9 +1,9 @@
 <!-- i dont need this for now -->
-<!-- <?php get_template_part('templates/page', 'header'); ?> -->
+<?php get_template_part('templates/page', 'header'); ?>
 
 <section class="row">
-  <?php query_posts('showposts=6'); while (have_posts()) : the_post(); ?>
-
+  <?php while (have_posts()) : the_post(); ?>
+    <!-- query_posts('showposts=6'); i might need this for the homepage-->
     <!-- article container -->
     <div class="col-md-4 col-sm-6 col-xs-12 article-container">
       <!-- display the article image -->

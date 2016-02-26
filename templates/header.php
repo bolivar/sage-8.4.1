@@ -43,7 +43,7 @@
 
   <div class="col-xs-6"><a class="brand" href="<?= esc_url(home_url('/')); ?>"><img src="<?php bloginfo('template_url');?>/assets/images/blog_logo.png" alt="exquisitely edgy" /></a></div>
 
-  <div class="search_container clo-xs-3">
+  <div class="search_container col-xs-3">
      <form class="searchbox" method="get" action="<?php bloginfo('home'); ?>/" id="searchform">
        <input type="text"  placeholder="Search......" value="<?php echo wp_specialchars($s, 1); ?>" name="s" class="searchbox-input" id="s" required>
        <input type="submit" class="searchbox-submit" value="GO">
@@ -61,7 +61,7 @@
     ?>
   </nav>
 
-  <!-- primary nabigation -->
+  <!-- primary navigation -->
   <nav class="nav-primary">
     <?php
     if (has_nav_menu('primary_navigation')) :

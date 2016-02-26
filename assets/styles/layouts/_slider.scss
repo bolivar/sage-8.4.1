@@ -3,7 +3,7 @@
   height: auto;
 }
 .slick-slider {
-  margin-top:17px;
+  // margin-top:17px;
 }
 .center {
 
@@ -55,7 +55,7 @@
   .slick-active {
     &:hover {
       .featured-title {
-        background: rgba ( $brand-primary, .7 );
+        background: rgba( $brand-primary, .9 );
         height: 190px;
         transition: height ease 1s;
         }

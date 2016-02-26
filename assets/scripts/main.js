@@ -21,12 +21,13 @@
         // JavaScript to be fired on all pages
         // mobile menu fire up
         $("#mobile-menu").mmenu({
-           // options
+          // offCanvas: false
+          //  searchfield: true
         }, {
            // configuration
-           offCanvas: {
-              pageNodetype: "header"
-           }
+          //  offCanvas: {
+          //     pageNodetype: "header"
+          //  }
         });
 
 
@@ -38,7 +39,7 @@
            var searchBox = $('.searchbox');
            var isOpen = false;
            submitIcon.click(function(){
-            if(isOpen == false){
+            if(isOpen === false){
              searchBox.addClass('searchbox-open');
              inputBox.focus();
              isOpen = true;
@@ -55,7 +56,7 @@
              return false;
             });
            $(document).mouseup(function(){
-            if(isOpen == true){
+            if(isOpen === true){
              $('.searchbox-icon').css('display','block');
              submitIcon.click();
            }
@@ -83,19 +84,12 @@
               didScroll = true;
           });
 
-          setInterval(function() {
-              if (didScroll) {
-                  hasScrolled();
-                  didScroll = false;
-              }
-          }, 250);
-
           function hasScrolled() {
               var st = $(this).scrollTop();
 
               // Make sure they scroll more than delta
               if(Math.abs(lastScrollTop - st) <= delta)
-                  return;
+              { return; }
 
               // If they scrolled down and are past the navbar, add class .nav-up.
               // This is necessary so you never see what is "behind" the navbar.
@@ -112,24 +106,30 @@
               lastScrollTop = st;
           }
 
-          // end fixed menu js
+          setInterval(function() {
+              if (didScroll) {
+                  hasScrolled();
+                  didScroll = false;
+              }
+          }, 250);
 
           // slick carousel js
           $('.center').slick({
             centerMode: true,
             centerPadding: '80px',
             slidesToShow: 3,
-            autoplay: false,
+            autoplay: true,
             autoplaySpeed: 3000,
             arrows: true,
             responsive: [
               {
-                breakpoint: 768,
+                breakpoint: 1024,
                 settings: {
-                  arrows: false,
+                  arrows: true,
                   centerMode: true,
                   centerPadding: '40px',
-                  slidesToShow: 2
+                  slidesToShow: 2,
+                  slidesToScroll: 2
                 }
               },
               {
@@ -151,23 +151,24 @@
             autoplaySpeed: 5000
           });
 
+
           //keep the share sideback on a fixed position
           $('.share-side').scrollToFixed({
             marginTop: 10
           });
 
-          $(function () {
-            $.scrollUp({
-              scrollName: 'up', // Element ID
-              topDistance: '300', // Distance from top before showing element (px)
-              topSpeed: 300, // Speed back to top (ms)
-              animation: 'fade', // Fade, slide, none
-              animationInSpeed: 200, // Animation in speed (ms)
-              animationOutSpeed: 200, // Animation out speed (ms)
-              scrollText: 'Scroll to top', // Text for element
-              activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
-            });
-          });
+          // $(function () {
+          //   $.scrollUp({
+          //     scrollName: 'up', // Element ID
+          //     topDistance: '300', // Distance from top before showing element (px)
+          //     topSpeed: 300, // Speed back to top (ms)
+          //     animation: 'fade', // Fade, slide, none
+          //     animationInSpeed: 200, // Animation in speed (ms)
+          //     animationOutSpeed: 200, // Animation out speed (ms)
+          //     scrollText: 'Scroll to top', // Text for element
+          //     activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+          //   });
+          // });
 
 
       },

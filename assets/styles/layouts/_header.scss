@@ -10,16 +10,16 @@ a {
 // }
 
 .banner {
-  background: #fff;
-  height: 203px;
-  position: fixed;
-  top: 0;
-  transition: top .53s ease-out;
-  width: 100%;
+  // background: #fff;
+  // height: 203px;
+  // position: fixed;
+  // top: 0;
+  // transition: top .53s ease-out;
+  // width: 100%;
 }
 
 .nav-up {
-    top: -203px;
+    // top: -203px;
 }
 
 
@@ -100,9 +100,13 @@ a {
 
 .mobile {
   margin:0px;
-  padding: 40px 0 20px 0;
+  padding: 30px 0 0 0;
   background: #fff;
   border-bottom: 1px solid $btn-default-border;
+
+  .searchbox-open {
+    width: 500%;
+  }
 }
 
 // MMenu flicker onload fixed

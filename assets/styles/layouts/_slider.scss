@@ -10,6 +10,23 @@
   .slick-slide{
     position: relative;
     cursor: pointer;
+    p {
+      margin: 0;
+      color: white;
+    }
+    h1 {
+      margin-top: 5px;
+      margin-bottom: 25px;
+      font-size: 30px;
+    }
+    .link {
+      margin-top: 10px;
+      text-transform:uppercase;
+    }
+    .category {
+        font-family: $secondary-font;
+    }
+
     .featured-title{
       padding: 28px 28px 18px 28px;
       left: 0;
@@ -18,12 +35,12 @@
       bottom: 0;
       position: absolute;
       background: rgba(0, 0, 0, 0.4);
-      height: 120px;
+      height: 110px;
       // transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
       transition: height ease 1s;
         &:hover{
-          background: $brand-primary;
-          height: 160px;
+          background: rgba( $brand-primary, .9);
+          height: 190px;
           transition: height ease 1s;
         }
       a {
@@ -38,10 +55,10 @@
   .slick-active {
     &:hover {
       .featured-title {
-        background: $brand-primary;
-        height: 160px;
+        background: rgba ( $brand-primary, .7 );
+        height: 190px;
         transition: height ease 1s;
-      }
+        }
     }
   }
 

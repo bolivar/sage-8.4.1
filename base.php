@@ -41,6 +41,7 @@ use Roots\Sage\Wrapper;
       get_template_part('templates/footer');
       wp_footer();
     ?>
-    <a href="#up" id="up">up</a>
+    <!-- <a href="#up" id="up">up</a> -->
+    <!-- need to work on this -->
   </body>
 </html>

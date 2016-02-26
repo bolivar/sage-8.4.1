@@ -29,6 +29,8 @@
            }
         });
 
+
+
         // this triggers the search box
         $(document).ready(function(){
            var submitIcon = $('.searchbox-icon');
@@ -117,7 +119,7 @@
             centerMode: true,
             centerPadding: '80px',
             slidesToShow: 3,
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 3000,
             arrows: true,
             responsive: [

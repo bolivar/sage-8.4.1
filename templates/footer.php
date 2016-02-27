@@ -14,11 +14,11 @@
           <!-- <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css"> -->
           <style type="text/css">
           	#mc_embed_signup{clear:left; font: normal 400 14px/14px Futura,Helvetica,Arial,sans-serif; width:100%;}
-            #mc_embed_signup input[type=email]{width: 100%; padding:14px 100px 16px 14px; display: inline-block; border: 1px solid #f2f2f2; transition: all 1s cubic-bezier(0.165, 0.84, 0.44,1);margin-bottom: 20px;}
+            #mc_embed_signup input[type=email]{width: 100%; padding:23px 0px 9px 15px; display: inline-block; border: 1px solid #f2f2f2; transition: all 1s cubic-bezier(0.165, 0.84, 0.44,1);margin-bottom: 20px;}
             #mc_embed_signup input[type=email]:focus{border:1px solid #737373; outline:none; transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);}
             #mc_embed_signup input[type=submit]{width: 100%; padding:17px 10px; background: #000; color:#fff;border:1px solid transparent;text-transform: uppercase;}
             #mc_embed_signup input[type=submit]:hover{background: #39CCCC; transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);}
-            #mc_embed_signup .clear{display: inline-block;}
+            #mc_embed_signup .clear{display: inline-block; padding-left: 0px;}
 
           	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
           	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */

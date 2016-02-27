@@ -41,7 +41,8 @@
    </a>
   </div>
 
-  <div class="col-xs-6"><a class="brand" href="<?= esc_url(home_url('/')); ?>"><img src="<?php bloginfo('template_url');?>/assets/images/blog_logo.png" alt="exquisitely edgy" /></a></div>
+  <!-- <div class="col-xs-6"><a class="brand" href="<?= esc_url(home_url('/')); ?>"><img src="<?php bloginfo('template_url');?>/assets/images/blog_logo.png" alt="exquisitely edgy" /></a></div> -->
+  <div class="col-xs-6"><a class="brand" href="<?= esc_url(home_url('/')); ?>"><img src="http://www.shoplimitededitions.com/v/vspfiles/assets/images/exquisitely_edgy_logo.svg" alt="exquisitely edgy" /></a></div>
 
   <div class="search_container col-xs-3">
      <form class="searchbox" method="get" action="<?php bloginfo('home'); ?>/" id="searchform">

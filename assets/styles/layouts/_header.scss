@@ -27,9 +27,10 @@ a {
   font-size: 1.5em;
 }
 
-.row {
+.banner-container {
   margin-top: 50px;
 }
+
 .social-media {
   ul {
 
@@ -52,13 +53,18 @@ a {
 }
 
 .logo {
-  text-align: center;
+  // text-align: center;
   position: relative;
   top: -31px;
+  .logo-container {
+    width: 50%;
+    margin: 0 auto;
+  }
   img{
-    // width: 100%;
+     width: 100%;
   }
 }
+
 
 .nav-primary {
   margin-top: 10px;
@@ -106,6 +112,20 @@ a {
 @media (max-width: $breakpoint-tablet) {
   .nav-primary {
     display: none;
+  }
+  .logo {
+    position: relative;
+    top: 0px;
+    .logo-container {
+      width: 100%;
+    }
+  }
+  .mobile {
+    .brand{
+      img{
+        max-width: 60% !important;
+      }
+    }
   }
   header .desktop{
     display: none;

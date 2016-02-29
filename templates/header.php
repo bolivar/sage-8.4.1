@@ -1,6 +1,6 @@
 <header class="banner">
   <div class="container desktop">
-    <div class="row">
+    <div class="row banner-container">
       <!-- social media icons -->
       <div class="col-md-4 social-media">
         <ul>
@@ -13,7 +13,9 @@
 
       <!-- logo -->
       <div class="col-md-4 logo">
+        <div class="logo-container">
         <a class="brand" href="<?= esc_url(home_url('/')); ?>"><img src="http://www.shoplimitededitions.com/v/vspfiles/assets/images/exquisitely_edgy_logo.svg" alt="exquisitely edgy" /></a>
+        </div>
       </div>
 
       <!-- search bar -->
@@ -41,8 +43,14 @@
    </a>
   </div>
 
-  <!-- <div class="col-xs-6"><a class="brand" href="<?= esc_url(home_url('/')); ?>"><img src="<?php bloginfo('template_url');?>/assets/images/blog_logo.png" alt="exquisitely edgy" /></a></div> -->
-  <div class="col-xs-6"><a class="brand" href="<?= esc_url(home_url('/')); ?>"><img src="http://www.shoplimitededitions.com/v/vspfiles/assets/images/exquisitely_edgy_logo.svg" alt="exquisitely edgy" /></a></div>
+
+  <div class="col-xs-6 logo">
+    <div class="logo-container">
+    <a class="brand" href="<?= esc_url(home_url('/')); ?>">
+      <img src="http://www.shoplimitededitions.com/v/vspfiles/assets/images/exquisitely_edgy_logo.svg" alt="exquisitely edgy" />
+    </a>
+    </div>
+  </div>
 
   <div class="search_container col-xs-3">
      <form class="searchbox" method="get" action="<?php bloginfo('home'); ?>/" id="searchform">

@@ -4,17 +4,17 @@
       <!-- social media icons -->
       <div class="col-md-4 social-media">
         <ul>
-          <li><a class="fa fa-facebook fa-2x" href="#"></a></li>
-          <li><a class="fa fa-twitter fa-2x" href="#"></a></li>
-          <li><a class="fa fa-instagram fa-2x" href="#"></a></li>
-          <li><a class="fa fa-pinterest fa-2x" href="#"></a></li>
+          <li><a class="fa fa-facebook fa-2x" target="_blank" href="https://www.facebook.com/Eccoci-Official-201920033314097/"></a></li>
+          <li><a class="fa fa-twitter fa-2x" target="_blank" href="https://twitter.com/shop_limitededs"></a></li>
+          <li><a class="fa fa-instagram fa-2x" target="_blank" href="https://www.instagram.com/shop_limited/"></a></li>
+          <li><a class="fa fa-pinterest fa-2x" target="_blank" href="https://www.pinterest.com/ShopLimited/shop-limited-editons/"></a></li>
         </ul>
       </div>
 
       <!-- logo -->
       <div class="col-md-4 logo">
         <div class="logo-container">
-        <a class="brand" href="<?= esc_url(home_url('/')); ?>"><img src="http://www.shoplimitededitions.com/v/vspfiles/assets/images/exquisitely_edgy_logo.svg" alt="exquisitely edgy" /></a>
+        <a class="brand" href="<?= esc_url(home_url('/')); ?>"><img src="http://blog.shoplimitededitions.com/wp-content/uploads/2015/09/blog_logo1.png" alt="blog limited editions" /></a>
         </div>
       </div>
 
@@ -47,7 +47,7 @@
   <div class="col-xs-6 logo">
     <div class="logo-container">
     <a class="brand" href="<?= esc_url(home_url('/')); ?>">
-      <img src="http://www.shoplimitededitions.com/v/vspfiles/assets/images/exquisitely_edgy_logo.svg" alt="exquisitely edgy" />
+      <img src="http://blog.shoplimitededitions.com/wp-content/uploads/2015/09/blog_logo1.png" alt="blog limited editions" />
     </a>
     </div>
   </div>

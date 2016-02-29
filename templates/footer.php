@@ -42,14 +42,14 @@
     <section class="end">
       <div class="container">
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-          <a class="brand" href="<?= esc_url(home_url('/')); ?>"><img src="<?php bloginfo('template_url');?>/assets/images/blog_logo.png" alt="exquisitely edgy" /></a>
+          <a class="brand" href="<?= esc_url(home_url('/')); ?>">Blog Limited Editions</a>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 social-media col-xs-6">
           <ul>
-            <li><a class="fa fa-facebook fa-2x" href="#"></a></li>
-            <li><a class="fa fa-twitter fa-2x" href="#"></a></li>
-            <li><a class="fa fa-instagram fa-2x" href="#"></a></li>
-            <li><a class="fa fa-pinterest fa-2x" href="#"></a></li>
+            <li><a class="fa fa-facebook fa-2x" target="_blank" href="https://www.facebook.com/Eccoci-Official-201920033314097/"></a></li>
+            <li><a class="fa fa-twitter fa-2x" target="_blank" href="https://twitter.com/shop_limitededs"></a></li>
+            <li><a class="fa fa-instagram fa-2x" target="_blank" href="https://www.instagram.com/shop_limited/"></a></li>
+            <li><a class="fa fa-pinterest fa-2x" target="_blank" href="https://www.pinterest.com/ShopLimited/shop-limited-editons/"></a></li>
           </ul>
         </div>
         <div class="col-lg-12 col-xs-12 col-md-12 copy">

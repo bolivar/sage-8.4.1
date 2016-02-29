@@ -5,11 +5,11 @@
       <?php get_template_part('templates/entry-meta'); ?>
     </header>
     <div class="col-md-1 col-sm-1 hidden-xs">
-      <div class="share-side">
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/Eccoci-Official-201920033314097/" class="fa fa-facebook"></a>
-        <a href="https://www.twitter.com/intent/tweet?url=https://twitter.com/shop_limitededs&text=Check out this awesome post by Limited Editions" target="_blank" class="fa fa-twitter"></a>
-        <a href="http://www.pinterest.com/pin/create/button/?url=https://www.pinterest.com/ShopLimited/shop-limited-editons/" target="_blank"  class="fa fa-pinterest"></a>
-        <a target="_blank" class="fa fa-envelope" href="mailto:friend@gmail.com?subject=Via BlogLimitedEditions.com&amp;body=Check this out" id="emaillink"></a>
+        <div class="share-side">
+          <a class="addthis_button_facebook addthis_32x32_style atss atss-left at4-show"></a>
+          <a class="addthis_button_twitter addthis_32x32_style atss atss-left at4-show "></a>
+          <!--<a class="addthis_button_pinterest addthis_32x32_style atss atss-left at4-show"></a>-->
+          <a class="addthis_button_email addthis_32x32_style atss atss-left at4-show"></a>
       </div>
     </div>
     <article <?php post_class('col-md-11 col-sm-11 col-xs-12'); ?>>

@@ -47,10 +47,10 @@
           <!-- <a href="#" class="glyphicon glyphicon-share-alt"></a> -->
             <div class="more-button glyphicon glyphicon-share-alt">
               <div class="share-container">
-                <a href="#" class="fa fa-facebook fa-2x"></a>
-                <a href="#" class="fa fa-twitter fa-2x"></a>
-                <a href="#"  class="fa fa-instagram fa-2x"></a>
-                <a href="#"  class="fa fa-pinterest fa-2x"></a>
+                <a href="#" class="addthis_button_facebook"></a>
+                <a href="#" class="addthis_button_twitter"></a>
+
+
               </div>
             </div>
         </div>

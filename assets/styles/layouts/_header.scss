@@ -46,7 +46,7 @@ a {
   a {
     color: $brand-black;
   }
-    :hover{
+    :hover,:active{
       text-decoration: none;
       color: $brand-primary;
     }
@@ -55,14 +55,14 @@ a {
 .logo {
   // text-align: center;
   position: relative;
-  top: -31px;
+  top: -12px;
+  margin: 0 auto;
   .logo-container {
-    width: 50%;
-    margin: 0 auto;
+    text-align: center;
   }
-  img{
-     width: 100%;
-  }
+  // img{
+  //    width: 100%;
+  // }
 }
 
 
@@ -120,13 +120,13 @@ a {
       width: 100%;
     }
   }
-  .mobile {
-    .brand{
-      img{
-        max-width: 60% !important;
-      }
-    }
-  }
+  // .mobile {
+  //   .brand{
+  //     img{
+  //       max-width: 60% !important;
+  //     }
+  //   }
+  // }
   header .desktop{
     display: none;
   }
@@ -155,10 +155,14 @@ a {
     width: 500%;
   }
 
+  .searchbox {
+    top: 11px;
+  }
+
   .brand {
 
     img{
-      max-width: 40%;
+      max-width: 80%;
     }
   }
 }

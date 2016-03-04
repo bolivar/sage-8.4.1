@@ -6,7 +6,7 @@
   // margin-top:17px;
 }
 .center {
-
+  visibility: hidden;
   .slick-slide{
     position: relative;
     cursor: pointer;
@@ -113,4 +113,8 @@
     background: #fff;
   }
 
+}
+
+.center.slick-initialized {
+    visibility: visible;
 }

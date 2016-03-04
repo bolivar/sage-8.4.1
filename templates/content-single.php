@@ -5,7 +5,7 @@
       <?php get_template_part('templates/entry-meta'); ?>
     </header>
     <div class="col-md-1 col-sm-1 hidden-xs">
-        <div class="share-side">
+      <div class="share-side">
           <a class="addthis_button_facebook addthis_32x32_style atss atss-left at4-show"></a>
           <a class="addthis_button_twitter addthis_32x32_style atss atss-left at4-show "></a>
           <!--<a class="addthis_button_pinterest addthis_32x32_style atss atss-left at4-show"></a>-->

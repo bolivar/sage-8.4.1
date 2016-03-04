@@ -22,4 +22,5 @@
       <?php comments_template('/templates/comments.php'); ?>
     </article>
   </section>
+
 <?php endwhile; ?>

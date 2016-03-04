@@ -29,6 +29,7 @@ use Roots\Sage\Wrapper;
       <div class="content">
         <main class="main">
           <?php include Wrapper\template_path(); ?>
+          <?php wp_pagenavi(); ?>
         </main><!-- /.main -->
         <?php if (Setup\display_sidebar()) : ?>
           <aside class="sidebar">

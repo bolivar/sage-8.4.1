@@ -14,6 +14,19 @@
       opacity: 0.8;
     }
   }
+
+  .entry-content {
+    p {
+      height: 60px;
+    }
+  }
+
+}
+
+@media (min-width: 768px) {
+  .article-container {
+    height: 532px;
+  }
 }
 
 .article-header{
@@ -30,6 +43,7 @@
   h1 {
     margin-top: 10px;
     line-height: 28px;
+    height: 62px;
       a{
       color: $brand-black;
       font-size: 28px;
@@ -43,6 +57,7 @@
   .entry-time{
 
   }
+
 }
 
 .box{
@@ -196,4 +211,10 @@
       }
     }
   }
+}
+
+
+.wp-pagenavi {
+    text-align: center;
+    margin-bottom: 20px;
 }
